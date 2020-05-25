@@ -1,0 +1,8 @@
+.img {
+    background-image: url('../../assets/images/photo2.jpeg');
+    border-radius: 100%;
+    background-position: center; 
+    background-size: cover; 
+    height: 250px;
+    width: 260px;
+}

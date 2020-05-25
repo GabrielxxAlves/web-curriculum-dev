@@ -1,0 +1,55 @@
+.l-header {
+    background-color: rgb(42, 7, 75);
+    color: white;
+}
+
+.l-header-container{
+    height: 300px;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.l-div-text {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.l-div-padding {
+    padding-bottom: 20px;
+}
+
+.text-title {
+    letter-spacing: 3px;
+    font-size: 30px;
+    margin: 5px;
+    padding: 0px;
+}
+
+.text-subtitle {
+    font-weight: 100;
+    font-size: 15px;
+    margin: 5px;
+    color: gray;
+
+}
+
+.text-subtitle > i {
+    padding-right: 10px;
+}
+
+#canvas-image {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}

@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+@import 'css/base/reset.css';
+@import 'css/layout/header.css';
+@import 'css/layout/content.css';
+@import 'css/layout/resume.css';
+@import 'css/layout/academic.css';
+@import 'css/layout/skil.css';
+@import 'css/layout/experience.css';
+@import 'css/module/img.css';
+@import 'css/module/skil.css';
+@import 'css/module/title-icon.css';
+@import 'css/theme/dark-red.css';
