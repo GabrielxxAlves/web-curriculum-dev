@@ -2,12 +2,38 @@
   <div class="title">
     <h2>
       <i class="fa fa-asterisk"></i>
-      Skils
+      Skills
     </h2>
   </div>
-  <div class="skil">
-    <div class="skil-label" *ngFor="let item of labels; let i = index">
-      <p>{{item}}</p>
+  <div class="container-skill">
+    <div class="skill">
+      <span class="skill-label" *ngFor="let item of labels['languages']; let i = index">
+        {{item}}
+      </span>
     </div>
+  <div class="skill">
+    <span class="skill-label" *ngFor="let item of labels['runTimes']; let i = index">
+      {{item}}
+    </span>
+  </div>
+  <div class="skill">
+    <span class="skill-label" *ngFor="let item of labels['frameworks']; let i = index">
+      {{item}}
+    </span>
+  </div>
+  <div class="skill">
+    <span class="skill-label" *ngFor="let item of labels['bds']; let i = index">
+      {{item}}
+    </span>
+  </div>
+  <div class="skill">
+    <span class="skill-label" *ngFor="let item of labels['pattern']; let i = index">
+      {{item}}
+    </span>
+  </div>
+  <div class="skill">
+    <span class="skill-label" *ngFor="let item of labels['add']; let i = index">
+      {{item}}
+    </span>
   </div>
 </div>

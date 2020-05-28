@@ -1,27 +1,21 @@
-.skil {
+
+.container-skill .skill {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.skil-label {
-    background-color: rgb(42, 7, 75);
-    width: 20%;
+.container-skill .skill .skill-label {
     color: white;
-    text-align: center;
-    border-radius: 10px;
-    font-weight: bold;
-    margin: 10px;
+    background-color: rgb(42, 7, 75);
+    padding: 8px;
+    margin: 3px;
+    border-radius: 5px;
 }
 
-
-@media (max-width: 769px) {
-    .skil-label {   
-        border-radius: 50%;
-        font-size: 12px;
-        font-weight: normal;
-        width: 40%;
-        height: 40px;
+@media (max-width: 500px) {
+    .skill-label {   
+       
     }
-  
 }

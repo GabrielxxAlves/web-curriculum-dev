@@ -6,11 +6,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkilComponent implements OnInit {
 
-  labels = [
-    '.Net', '.Net Core', '.Net Platform', 'GIT', 'GIT Hub', 'NodeJS', 'Scrum',
-    'SQL Server', 'MySQL', 'MongoBD', 'TDD', 'BDD', 'SOLID Principle', 'CQRS Pattern',
-    'Docker', 'PHP'
-  ];
+  runTimes = ['.Net Platform ', ' .Net Core',  ' NodeJS'];
+  frameworks = ['React', ' AngularJS', ' React-Native', ' Flutter'];
+  languages = ['C#', ' JavaScript', ' TypeScript', ' PHP', ' Dart', ' Python'];
+  bds = ['SQL Server', ' MySQL', ' MongoBD'];
+  pattern = ['TDD', ' BDD', ' DDD', ' SOLID Principle', ' CQRS Pattern', ' SMACSS'];
+  add = ['Git', ' Scrum', ' Docker', 'HTML', 'CSS'];
+
+  labels = {
+    runTimes: this.runTimes,
+    frameworks: this.frameworks,
+    languages: this.languages,
+    bds: this.bds,
+    pattern: this.pattern,
+    add: this.add
+  };
 
   constructor() { }
 
